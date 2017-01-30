@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block main %}
+
+<h1>Profile</h1>
+<hr/>
+
+
+<div id='pic' >
+    <img id="editimg" src="{{url_for('static', filename='Qerii.jpg')}}" />
+    
+</div>
+<div id='info'>
+    <h4>Topaz Grant</h4>
+    
+    <hr />
+    
+    <p >Date: {{current_time}}</p>
+    
+    <hr />
+    
+    <p>Username: Topaz</p>
+    <p>ID#: 620050601</p>
+    <p>Age: 1005</p>
+    <p>Gender: Female</p>
+    <hr />
+    <p>I am a cartoon character</p>
+</div>
+
+
+
+
+{% endblock %}
